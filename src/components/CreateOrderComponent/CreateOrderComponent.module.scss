@@ -1,0 +1,58 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
+@font-face {
+  font-family: 'Open Sans';
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+}
+.CreateOrderComponent {
+  font-family: 'Open Sans', sans-serif;
+  form {
+    margin: 1em;
+    padding: 1em;
+    justify-content: left;
+    text-align: left;
+  }
+  .labelOrderLeft {
+    justify-content: left;
+    display: flex;
+  }
+  .formSectionSpacing {
+    padding: 1em;
+    color: white;
+  }
+  .formSection {
+    background-color: #32DE8A;
+    @extend .formSectionSpacing;
+  }
+  .formSectionSecondary {
+    background-color: #2D848A;
+    @extend .formSectionSpacing;
+  }
+  .formSectionAlternative {
+    background-color: #88A2AA;
+    @extend .formSectionSpacing;
+  }
+  .sectionTitle {
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: overline;
+  }
+  .submitBtnSpacing {
+    margin: 1em 0 ;
+  }
+  .productList {
+    display: inline-flex;
+    border: 2px solid #2D848A;
+    margin: 0.5em;
+    span {
+      margin: 1em;
+    }
+    strong {
+      margin: 1em;
+    }
+  }
+  .itemBox {
+    overflow: auto;
+    max-height: 200px;
+  }
+}
